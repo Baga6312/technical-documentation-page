@@ -1,0 +1,60 @@
+*{
+    scroll-behavior: smooth;
+}
+
+
+
+/* navigation bar */ 
+ #navigation { 
+
+    justify-content: center; 
+    position: relative;
+    background-color: gray;
+    border-radius: 5px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin: auto;
+    width: 60%;
+    height: 70px;
+    border: 3px ;
+    padding: 10px;
+}
+#navigation ul li { 
+    margin: auto;
+ 
+    align-items: center;
+    display: block;
+}
+
+#navigation ul {
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#navigation a { 
+    
+    font-weight:500;
+    text-decoration: none;
+    color : Black;
+
+}
+
+#navigation li:hover { 
+    background-color: #fff;
+    transition: 0.1s ease-in;
+    border-radius: 10px;
+
+    padding: 5px;
+}
+
+@media (400px <= width <= 600px) { 
+    
+    #navigation {
+        width: 90%;
+        overflow: visible;
+    }
+}
