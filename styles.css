@@ -4,20 +4,19 @@
 }
 
 
-
 /* navigation bar */ 
  #navigation { 
 
     justify-content: center; 
-    position: relative;
+
     background-color: gray;
     border-radius: 5px;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
     margin: auto;
-    width: 40%;
-    height: 40px;
+    width: 50%;
+
     border: 3px ;
     padding: 10px;
 }
@@ -58,3 +57,56 @@
         overflow: visible;
     }
 }
+
+
+
+/* navbar */
+#navbar { 
+    position: fixed;
+}
+
+#navbar ul{ 
+    overflow: scroll;
+
+    width: 375px;
+    background-color: gray;
+    border-radius: 5px;
+}
+#navbar ul li { 
+    list-style: none;
+    background-color: red;
+    padding: 10px;
+    opacity: 0.8;
+    border:1px solid black;
+    width: 350px;
+    margin-left:-20px ;
+}
+#navbar ul li:first-child { 
+    margin-top: 20px;
+}
+
+#navbar  a {
+    text-decoration: none;
+    color : black ;  
+}
+
+#navbar li:hover { 
+    border : 3px solid black ;
+    transition: 0.1s ease-in;
+    opacity: 1;
+}
+
+#main-doc{ 
+    margin-left: 430px;
+    margin-top: 50px;
+}
+
+.main-section header { 
+    background-color: yellow;
+    padding : 10px; 
+    text-align:left;
+    width: 30%;
+}
+
+
+
