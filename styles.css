@@ -1,5 +1,6 @@
 *{
     scroll-behavior: smooth;
+    font-family: "Roboto Mono";
 }
 
 
@@ -15,44 +16,43 @@
     overflow: hidden;
     text-overflow: ellipsis;
     margin: auto;
-    width: 60%;
-    height: 70px;
+    width: 40%;
+    height: 40px;
     border: 3px ;
     padding: 10px;
 }
 #navigation ul li { 
     margin: auto;
- 
+    margin-right: 50px;
     align-items: center;
     display: block;
 }
 
 #navigation ul {
     display: flex;
-    margin-top: 20px;
-    justify-content: center;
-    align-items: center;
+    margin-top: 0px;
 }
 
-
 #navigation a { 
-    
     font-weight:500;
     text-decoration: none;
     color : Black;
 
 }
-
+#navigation li { 
+    padding: 8px;
+}
 #navigation li:hover { 
     background-color: #fff;
     transition: 0.1s ease-in;
     border-radius: 10px;
-
-    padding: 5px;
+    padding: 8px;
 }
 
 @media (400px <= width <= 600px) { 
-    
+    #navigation ul li { 
+        margin-right: 40px;
+    }
     #navigation {
         width: 90%;
         overflow: visible;
